@@ -1,0 +1,10 @@
+<?php
+$i = 1;
+$num = 10;
+echo"Table of:",$num, ":- \n";
+do{
+    echo"$i", "X", "$num", "=", $i*$num, "\n";
+   $i++; 
+}
+while($i<=10);
+?>
